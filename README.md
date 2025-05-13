@@ -55,7 +55,7 @@ This script connects to TouchDesigner via `localhost:7000` by default.
    ```python
    client.run("YOUR_DISCORD_BOT_TOKEN_HERE")
 
-You can get your token from the Discord Developer Portal.
+You can get your token from the Discord Developer Portal. (Make sure your Bot has permisions to read text channels)
 
 3. Ensure the port number in BotSender.py matches the port used in the TCP/IP DAT inside the TouchDesigner project (default is 7000).
 
